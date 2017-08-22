@@ -1,4 +1,5 @@
-1.
+1.(a+b)^2=a^2+b^2+2ab
+
 import tensorflow as tf
 a = tf.multiply(2, 2)
 b = tf.multiply(3, 3)
@@ -13,7 +14,7 @@ with tf.Session() as sess:
     writer.close()
 
 
-2.
+2.(a-b)^3 = a^3 - b^3 - 3ab(a-b)
 import tensorflow as tf
 a  = tf.multiply(6, 6)
 a1 = tf.multiply(a, 6)
